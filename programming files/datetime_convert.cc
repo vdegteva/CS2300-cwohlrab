@@ -3,6 +3,8 @@
 #include <sstream>
 #include <chrono>
 
+//main program that changes the formating of the date string 
+//the date is converted from year-month-day to month/date/year
 int main()
 {
     std::string date_str = "2022-03-17 10:45:30";
